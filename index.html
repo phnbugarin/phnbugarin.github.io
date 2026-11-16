@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Humpry Bugarin — Filmmaker & Video Editor</title>
+  <meta name="description" content="Portfolio of Humpry Bugarin, a videographer and video editor in Tarlac City, Philippines." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="nav" id="top">
+    <a href="#top" class="nav__brand">Humpry Bugarin</a>
+    <nav class="nav__links">
+      <a href="#about">About</a>
+      <a href="#timeline">Work</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <img class="hero__bg" src="./2026_02_15_12_28_IMG_7739.png" alt="" onerror="this.remove()" />
+    <div class="hero__shade"></div>
+
+    <h1 class="hero__title" aria-label="Humpry Bugarin">
+      <span>Humpry</span><span>Bugarin</span>
+    </h1>
+
+    <div class="hero__foot">
+      <p class="hero__lede">Videographer and video editor based in Tarlac City, Philippines.</p>
+      <a href="#timeline" class="btn">See my work</a>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <p class="about__big">
+      I make videos for schools, churches and small businesses. School films, cultural show trailers, event coverage and ads. I handle both the filming and the editing.
+    </p>
+
+    <div class="about__grid">
+      <div class="stats">
+        <div class="stat"><strong data-count="projects">0</strong><span>Projects</span></div>
+        <div class="stat"><strong data-count="years">0</strong><span>Years of experience</span></div>
+        <div class="stat"><strong>1</strong><span>Media Arts Award</span></div>
+      </div>
+
+      <div class="about__portrait">
+        <img src="./2026_02_15_12_27_IMG_7721.png" alt="Humpry Bugarin">
+      </div>
+
+      <dl class="about__list">
+        <div><dt>Roles</dt><dd>Director of Photography, Videographer, Video Editor</dd></div>
+        <div><dt>Work</dt><dd>Educational films, cultural trailers, event coverage, promotional videos and advertisements.</dd></div>
+        <div><dt>Award</dt><dd>Media Arts Award for video production work with CCAHS-PA.</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <section class="timeline-section" id="timeline">
+    <h2 class="timeline-section__title">Selected work</h2>
+
+    <div class="filters" id="filters" role="tablist" aria-label="Filter projects"></div>
+
+    <div class="timeline" id="timeline-root">
+      <div class="timeline__rail"><div class="timeline__progress" id="progress"></div></div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <p class="contact__intro">Have a project in mind?</p>
+    <a class="contact__mail" href="mailto:phnbugarin@gmail.com">phnbugarin@gmail.com</a>
+    <div class="contact__links">
+      <a href="https://www.youtube.com/@humphrybugarin" rel="noopener">YouTube</a>
+      <a href="https://www.facebook.com/princehumprybugarin/" rel="noopener">Facebook</a>
+    </div>
+    <p class="footer">© <span id="year">2026</span> Humpry Bugarin</p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
