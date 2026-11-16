@@ -69,16 +69,6 @@ const PROJECTS = [
     role: "Video Editor",
   },
   {
-    title: "CCAHS-PA — Club Introduction & Orientation",
-    date: "2023-03",
-    category: "School",
-    youtube: "https://youtu.be/YzG-Sl0LsmQ",
-    description:
-      "A series of promotional and informational videos introducing CCAHS-PA, its activities and its membership registration, including a collaboration with Tarlac State University.",
-    role: "Videographer & Video Editor",
-    recognition: "Media Arts Award",
-  },
-  {
     title: "Padayon — Cultural Show Trailer",
     date: "2023-02",
     category: "School",
@@ -87,6 +77,16 @@ const PROJECTS = [
       "A promotional trailer for Padayon, a school cultural show celebrating Filipino heritage, traditions and identity — told through visual storytelling and cinematic editing.",
     role: "Videographer & Video Editor",
     extra: "School Video Editor",
+    recognition: "Media Arts Award",
+  },
+  {
+    title: "CCAHS-PA — Club Introduction & Orientation",
+    date: "2022-03",
+    category: "School",
+    youtube: "https://youtu.be/YzG-Sl0LsmQ",
+    description:
+      "A series of promotional and informational videos introducing CCAHS-PA, its activities and its membership registration, including a collaboration with Tarlac State University.",
+    role: "Videographer & Video Editor",
     recognition: "Media Arts Award",
   },
   {
